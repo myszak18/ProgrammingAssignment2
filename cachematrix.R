@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These are two functions which create an "object" called CacheMatrix which is a matrix 
+## that can "cache" i.e. store in memory its own inverse matrix. 
 
-## Write a short comment describing this function
+## This function creates the object CacheMatrix described above.
 
 makeCacheMatrix <- function(df = matrix()) {
   m <- NULL
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(df = matrix()) {
 
 
 
-## Write a short comment describing this function
+## This function initiates the object mentioned before and also returns cached data
 
 
 cacheSolve <- function(x, ...) {
